@@ -5,5 +5,5 @@ package lame
   */
 object Fort {
   val ress = "ress"
-  val ress = 2123
+//  val ress = 2123
 }
