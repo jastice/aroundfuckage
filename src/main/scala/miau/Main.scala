@@ -2,8 +2,6 @@ package miau
 
 import akka.actor.ActorSystem
 
-import org.apache.commons.math.linear.AnyMatrix
-
 class Main {
 
 }
@@ -13,14 +11,14 @@ class Main {
   */
 object Main extends App {
 
-  org.apache.commons.math.linear.AnyMatrix
+  // org.apache.commons.math.linear.AnyMatrix
 
 //  println(lame.Fort.ress)
 //  print("???> ")
 //  val readme = StdIn.readLine()
 //  println(s"     yes ... $readme")
 
-  println("and the foo is ... " + System.getProperty("foo","N/A"))
+  // println("and the foo is ... " + System.getProperty("foo","N/A"))
 //  val a = 23
 //  val a = 233
 
@@ -40,7 +38,6 @@ object Main extends App {
 
   }
 
-  val b: org.apache.commons.math.linear.AnyMatrix
 
 }
-deps
+// deps

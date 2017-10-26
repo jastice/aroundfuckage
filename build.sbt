@@ -9,7 +9,7 @@ version := "1.0"
 
 
 enablePlugins(BuildInfoPlugin)
-val projectDep = ProjectRef(uri("git://github.com/jastice/lattice"),"lattice")
+val projectDep = RootProject(uri("git://github.com/jastice/lattice"))
 val localDep = ProjectRef(file("/Users/jast/playspace/foo0"), "foo0")
 
 dependsOn(projectDep, localDep)
